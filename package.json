@@ -1,37 +1,20 @@
 {
   "name": "arena-chan-dl",
-  "version": "1.1.1",
-  "description": "are.na channel downloader cli",
+  "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tg-z/arena-chan-dl.git"
-  },
-  "homepage": "https://github.com/tg-z/arena-chan-dl#readme",
-  "author": "tg-z",
-  "private": false,
-  "preferGlobal": true,
-  "dependencies": {
-    "axios": ">=0.18.1",
-    "chalk": ">=4.1.0",
-    "make-dir": "^3.1.0",
-    "mime": ">=1.3.4",
-    "parameterize": ">=0.0.7",
-    "ramda": ">=0.24.1",
-    "update-notifier": "^5.0.1",
-    "yargs": ">=16.1.0"
-  },
   "bin": {
-    "arena-chan-dl": "index.js"
+    "arena-chan-dl": "./index.js"
   },
-  "keywords": [
-    "are.na",
-    "cli",
-    "download"
-  ],
-  "scripts": {
-    "start": "npm i",
-    "pub": "npm publish"
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chalk": "^5.3.0",
+    "mime-types": "^2.1.35",
+    "slugify": "^1.6.6",
+    "update-notifier": "^7.0.0",
+    "yargs": "^17.7.2"
   }
 }
