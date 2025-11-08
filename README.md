@@ -1,3 +1,5 @@
+IDK any javascript, I had the Kimi K2 AI model fix this to work with node v22. Seems to work, use at own risk.
+
 # `$ arena-chan-dl`
 
 <p align="center">
